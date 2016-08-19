@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "production": "node_modules/.bin/webpack -p"
+    "production": "node_modules/.bin/webpack -p",
+    "start": "node_modules/.bin/webpack-dev-server"
   },
   "author": "",
   "license": "ISC",
@@ -18,6 +19,7 @@
   },
   "dependencies": {
     "react": "^15.3.0",
-    "react-dom": "^15.3.0"
+    "react-dom": "^15.3.0",
+    "react-router": "^2.6.1"
   }
 }
